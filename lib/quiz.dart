@@ -34,7 +34,8 @@ class _QuizState extends State<Quiz> {
       theme: ThemeData(
         appBarTheme: AppBarTheme(
           backgroundColor: Color.fromARGB(255, 52, 5, 66),
-        )
+        ), 
+      
       ),
       home: Scaffold(
         appBar: AppBar(
