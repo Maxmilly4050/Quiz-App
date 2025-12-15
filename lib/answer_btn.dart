@@ -9,17 +9,17 @@ class AnswerBtn extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-          onPressed: () {
-            // Navigate to another screen or perform an action
-          },
-          child: Text(answerText),
+          onPressed: onTap,
           style: ElevatedButton.styleFrom(            
             textStyle: TextStyle(fontSize: 18),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(40),
             ),
-            padding: EdgeInsets.symmetric(horizontal: 40, vertical: 10),
+            padding: EdgeInsets.symmetric(horizontal: 40, vertical: 0),
           ),
+          child: Text(answerText,
+          textAlign: TextAlign.center,),
         );
 }
 }
+
